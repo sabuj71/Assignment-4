@@ -1,7 +1,7 @@
 <?php 
 
 class Product {
-    // TODO: Add properties
+    //  Add properties
     private $id;
     private $name;
     private $price;
@@ -20,12 +20,10 @@ class Product {
         echo "Product Details: \n";
         echo "ID:{$this->id} \n";
         echo "Name:{$this->name} \n";
-        echo "Price:{$this->getFormattedPrice()} \n";
+        echo "Price:{$this->getFormattedPrice()} ";
     }
 
 }
-
-
 // Test the Product class
 $product = new Product(1, 'T-shirt', 19.99);
 $product->showDetails();
